@@ -1,0 +1,11 @@
+2026-09-11 08:57:56,875 [INFO] app.core.logger_setup: Logging started -> C:\Users\SARUMATHI.H\Downloads\Industrial_Report_Automation_v1.0\Industrial_Report_Automation_Delivery\logs\session_20260911_085756.log
+2026-09-11 08:57:56,919 [INFO] uvicorn.error: Started server process [4716]
+2026-09-11 08:57:56,919 [INFO] uvicorn.error: Waiting for application startup.
+2026-09-11 08:57:56,920 [INFO] uvicorn.error: Application startup complete.
+2026-09-11 08:57:56,920 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-09-11 08:57:57,678 [INFO] __main__: Industrial Report Automation running at http://127.0.0.1:8000/
+2026-09-11 08:57:57,679 [INFO] __main__: Reachable from phones/tablets on the same WiFi at: http://172.21.0.179:8000/
+2026-09-11 08:57:57,679 [ERROR] __main__: System tray unavailable; running without it. Close this process to stop the server.
+Traceback (most recent call last):
+  File "launcher.py", line 145, in main
+ModuleNotFoundError: No module named 'pystray'

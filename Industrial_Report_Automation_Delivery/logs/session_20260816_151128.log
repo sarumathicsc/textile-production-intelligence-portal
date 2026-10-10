@@ -1,0 +1,20 @@
+2026-08-16 15:11:28,733 [INFO] app.core.logger_setup: Logging started -> C:\Users\SARUMATHI.H\Downloads\Industrial_Report_Automation_v1.0\Industrial_Report_Automation_Delivery\logs\session_20260816_151128.log
+2026-08-16 15:11:28,782 [INFO] uvicorn.error: Started server process [23680]
+2026-08-16 15:11:28,783 [INFO] uvicorn.error: Waiting for application startup.
+2026-08-16 15:11:28,783 [INFO] uvicorn.error: Application startup complete.
+2026-08-16 15:11:28,784 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-08-16 15:11:29,533 [INFO] __main__: Industrial Report Automation running at http://127.0.0.1:8000/
+2026-08-16 15:11:29,541 [INFO] __main__: Reachable from phones/tablets on the same WiFi at: http://10.173.175.183:8000/
+2026-08-16 15:11:29,542 [ERROR] __main__: System tray unavailable; running without it. Close this process to stop the server.
+Traceback (most recent call last):
+  File "launcher.py", line 145, in main
+ModuleNotFoundError: No module named 'pystray'
+2026-08-16 15:12:14,533 [INFO] app.core.conversion_service: Parsed 20260724_220000_20260725_060000_G01.completed.xps -> 1 record(s)
+2026-08-16 15:12:14,631 [INFO] app.core.conversion_service: Parsed 20260724_140000_20260724_220000_G01.completed.xps -> 1 record(s)
+2026-08-16 15:12:14,756 [INFO] app.core.conversion_service: Parsed 20260724_060000_20260724_140000_G01.completed.xps -> 1 record(s)
+2026-08-16 15:12:14,882 [INFO] app.core.conversion_service: Parsed 20260715_220000_20260716_060000_G01.completed.xps -> 1 record(s)
+2026-08-16 15:12:14,981 [INFO] app.core.conversion_service: Parsed 20260715_140000_20260715_220000_G01.completed.xps -> 1 record(s)
+2026-08-16 15:12:15,088 [INFO] app.core.conversion_service: Parsed 20260715_060000_20260715_140000_G01.completed.xps -> 1 record(s)
+2026-08-16 15:12:15,192 [INFO] app.core.conversion_service: Parsed 20260714_220000_20260715_060000_G01.completed.xps -> 1 record(s)
+2026-08-16 15:12:15,382 [INFO] app.core.excel_writer: Workbook saved: C:\Users\SARUMATHI.H\Downloads\Industrial_Report_Automation_v1.0\Industrial_Report_Automation_Delivery\output\Industrial_Report.xlsx (inserted=7, duplicates=0, errors=0)
+2026-08-16 15:12:15,382 [INFO] app.core.conversion_service: Conversion complete: files=7 records=7 inserted=7 duplicates=0 errors=0
